@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbde3bef-3181-47ab-b029-6c679ab4f375" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PreparedStatementSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RowMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ConnectionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -130,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689918235115</updated>
       <workItem from="1689918236159" duration="1551000" />
-      <workItem from="1690185086917" duration="7311000" />
+      <workItem from="1690185086917" duration="10402000" />
     </task>
     <servers />
   </component>
@@ -144,6 +147,12 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ConnectionManager.java</url>
+          <line>13</line>
+          <properties field="MAX_POOL_SIZE" class="org.example.ConnectionManager" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
